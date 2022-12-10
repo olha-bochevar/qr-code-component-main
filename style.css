@@ -88,14 +88,25 @@ select {
 }
 body {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   background-color: var(--light-gray);
   display: flex;
   flex-direction: column;
   letter-spacing: 0.1px;
 }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
 /*-------------------------------------------------------------------------------*/
-.container {
+.main {
   width: 100vw;
   max-width: 1440px;
   flex: 1 1 auto;
