@@ -123,8 +123,8 @@ body {
   background-color: var(--white);
   max-width: 350px;
   padding: 20px;
-  margin: 70px auto 50px auto;
-  border-radius: 10px;
+  margin: 100px auto 50px auto;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,7 +135,7 @@ body {
   margin-bottom: 1em;
 }
 .img-container > img {
-  border-radius: 10px;
+  border-radius: 30px;
 }
 .text {
   text-align: center;
@@ -150,6 +150,7 @@ body {
 
 .describe {
   color: var(--grayish-blue);
+  margin-bottom: 1.5em;
 }
 
 .attribution {
